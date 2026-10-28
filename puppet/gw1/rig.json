@@ -1,0 +1,578 @@
+[
+ {
+  "name": "becken",
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   88.5,
+   120.0
+  ],
+  "z": 3,
+  "anchors": {
+   "top": [
+    88.5,
+    36.0
+   ],
+   "hip": [
+    88.5,
+    126.0
+   ],
+   "saum": [
+    88.5,
+    150.0
+   ]
+  },
+  "size": [
+   177,
+   300
+  ],
+  "bone_only": true
+ },
+ {
+  "name": "oberkoerper",
+  "parent": "becken",
+  "attach": "top",
+  "pivot": [
+   123.49797570850203,
+   279.1781376518219
+  ],
+  "z": 4,
+  "anchors": {
+   "mitte": [
+    123.49797570850203,
+    208.64000000000001
+   ]
+  },
+  "size": [
+   188,
+   326
+  ],
+  "bone_only": true
+ },
+ {
+  "name": "mitte",
+  "bone_only": true,
+  "parent": "oberkoerper",
+  "attach": "mitte",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 4,
+  "anchors": {
+   "brust": [
+    0,
+    -91.28000000000002
+   ]
+  },
+  "size": [
+   1,
+   1
+  ]
+ },
+ {
+  "name": "brust",
+  "bone_only": true,
+  "parent": "mitte",
+  "attach": "brust",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 4,
+  "anchors": {
+   "neck": [
+    -48.60008838455836,
+    -77.29838028169014
+   ],
+   "shoulder": [
+    -29.497975708502025,
+    -52.16
+   ],
+   "ruecken": [
+    -82.13797570850203,
+    -19.560000000000002
+   ]
+  },
+  "size": [
+   1,
+   1
+  ]
+ },
+ {
+  "name": "kopf",
+  "parent": "brust",
+  "attach": "neck",
+  "pivot": [
+   149.05655526992288,
+   251.42930591259642
+  ],
+  "z": 5,
+  "anchors": {},
+  "size": [
+   240,
+   300
+  ]
+ },
+ {
+  "name": "arm_vorn_oben",
+  "parent": "brust",
+  "attach": "shoulder",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 7,
+  "anchors": {
+   "elbow": [
+    -20.0,
+    202.76
+   ]
+  },
+  "size": [
+   113,
+   274
+  ],
+  "bone_only": true
+ },
+ {
+  "name": "arm_vorn_unten",
+  "parent": "arm_vorn_oben",
+  "attach": "elbow",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 7.1,
+  "anchors": {
+   "hand": [
+    17.0,
+    219.2
+   ]
+  },
+  "size": [
+   295,
+   308
+  ],
+  "bone_only": true
+ },
+ {
+  "name": "bein_vorn_oben",
+  "parent": "becken",
+  "attach": "hip",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 2.5,
+  "anchors": {
+   "knee": [
+    0,
+    337.92
+   ]
+  },
+  "size": [
+   142,
+   309
+  ],
+  "bone_only": true
+ },
+ {
+  "name": "bein_vorn_unten",
+  "parent": "bein_vorn_oben",
+  "attach": "knee",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 2.6,
+  "anchors": {
+   "ankle": [
+    0,
+    245.76
+   ]
+  },
+  "size": [
+   235,
+   358
+  ],
+  "bone_only": true,
+  "l2": 353.28
+ },
+ {
+  "name": "arm_hinten_oben",
+  "parent": "brust",
+  "attach": "shoulder",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 1,
+  "anchors": {
+   "elbow": [
+    9.5,
+    201.28
+   ]
+  },
+  "size": [
+   193,
+   250
+  ],
+  "bone_only": true
+ },
+ {
+  "name": "arm_hinten_unten",
+  "parent": "arm_hinten_oben",
+  "attach": "elbow",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 1.1,
+  "anchors": {
+   "hand": [
+    -2.5,
+    217.60000000000002
+   ]
+  },
+  "size": [
+   316,
+   296
+  ],
+  "bone_only": true
+ },
+ {
+  "name": "bein_hinten_oben",
+  "parent": "becken",
+  "attach": "hip",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 0.5,
+  "anchors": {
+   "knee": [
+    0,
+    337.92
+   ]
+  },
+  "size": [
+   156,
+   311
+  ],
+  "bone_only": true
+ },
+ {
+  "name": "bein_hinten_unten",
+  "parent": "bein_hinten_oben",
+  "attach": "knee",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 0.6,
+  "anchors": {
+   "ankle": [
+    0,
+    245.76
+   ]
+  },
+  "size": [
+   173,
+   348
+  ],
+  "bone_only": true,
+  "l2": 353.28
+ },
+ {
+  "name": "waffe",
+  "parent": "arm_vorn_unten",
+  "attach": "hand",
+  "pivot": [
+   109.24999999999999,
+   561.8439999999999
+  ],
+  "z": 6.9,
+  "anchors": {},
+  "size": [
+   218,
+   906
+  ]
+ },
+ {
+  "name": "kopf_angriff",
+  "bone": "kopf",
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   143.7164948453608,
+   249.90463917525773
+  ],
+  "z": 5.01,
+  "anchors": {},
+  "size": [
+   237,
+   300
+  ]
+ },
+ {
+  "name": "kopf_getroffen",
+  "bone": "kopf",
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   149.43048128342247,
+   251.97058823529414
+  ],
+  "z": 5.01,
+  "anchors": {},
+  "size": [
+   236,
+   302
+  ]
+ },
+ {
+  "name": "kopf_tot",
+  "bone": "kopf",
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   152.58854166666666,
+   251.9453125
+  ],
+  "z": 5.01,
+  "anchors": {},
+  "size": [
+   240,
+   302
+  ]
+ },
+ {
+  "name": "oberkoerper_strip",
+  "strip": [
+   "brust",
+   "mitte",
+   "oberkoerper"
+  ],
+  "pivot_bone": "oberkoerper",
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   123.49797570850203,
+   279.1781376518219
+  ],
+  "joints": [
+   117.36,
+   208.64000000000001
+  ],
+  "blend": 0.16,
+  "z": 4,
+  "anchors": {},
+  "size": [
+   188,
+   326
+  ]
+ },
+ {
+  "name": "waffe_back",
+  "parent": "brust",
+  "attach": "ruecken",
+  "pivot": [
+   109.0,
+   498.30000000000007
+  ],
+  "z": 3.8,
+  "anchors": {},
+  "size": [
+   218,
+   906
+  ],
+  "hidden": true
+ },
+ {
+  "name": "saum",
+  "bone_only": true,
+  "parent": "becken",
+  "attach": "saum",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 3,
+  "anchors": {},
+  "size": [
+   1,
+   1
+  ]
+ },
+ {
+  "name": "becken_strip",
+  "strip": [
+   "becken",
+   "saum"
+  ],
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   88.5,
+   120.0
+  ],
+  "joints": [
+   150.0
+  ],
+  "z": 3,
+  "anchors": {},
+  "size": [
+   177,
+   300
+  ]
+ },
+ {
+  "name": "arm_vorn_strip",
+  "strip": [
+   "arm_vorn_oben",
+   "arm_vorn_unten"
+  ],
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   59.0,
+   71.24000000000001
+  ],
+  "joints": [
+   274.0
+  ],
+  "axis": 39.0,
+  "z": 7.0,
+  "anchors": {},
+  "size": [
+   117,
+   548
+  ]
+ },
+ {
+  "name": "arm_hinten_strip",
+  "strip": [
+   "arm_hinten_oben",
+   "arm_hinten_unten"
+  ],
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   58.0,
+   70.72
+  ],
+  "joints": [
+   272.0
+  ],
+  "axis": 67.5,
+  "z": 1.0,
+  "anchors": {},
+  "size": [
+   114,
+   544
+  ]
+ },
+ {
+  "name": "bein_vorn_fuss",
+  "bone_only": true,
+  "parent": "bein_vorn_unten",
+  "attach": "ankle",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 2.6,
+  "anchors": {},
+  "size": [
+   1,
+   1
+  ]
+ },
+ {
+  "name": "bein_vorn_strip",
+  "strip": [
+   "bein_vorn_oben",
+   "bein_vorn_unten",
+   "bein_vorn_fuss"
+  ],
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   103.0,
+   76.80000000000001
+  ],
+  "joints": [
+   414.72,
+   660.48
+  ],
+  "xprofile": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    1.0
+   ]
+  ],
+  "axis": 103.0,
+  "z": 2.6,
+  "anchors": {},
+  "size": [
+   244,
+   768
+  ]
+ },
+ {
+  "name": "bein_hinten_fuss",
+  "bone_only": true,
+  "parent": "bein_hinten_unten",
+  "attach": "ankle",
+  "pivot": [
+   0,
+   0
+  ],
+  "z": 0.6,
+  "anchors": {},
+  "size": [
+   1,
+   1
+  ]
+ },
+ {
+  "name": "bein_hinten_strip",
+  "strip": [
+   "bein_hinten_oben",
+   "bein_hinten_unten",
+   "bein_hinten_fuss"
+  ],
+  "parent": null,
+  "attach": null,
+  "pivot": [
+   103.0,
+   76.80000000000001
+  ],
+  "joints": [
+   414.72,
+   660.48
+  ],
+  "xprofile": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    1.0
+   ]
+  ],
+  "axis": 103.0,
+  "z": 0.6,
+  "anchors": {},
+  "size": [
+   234,
+   768
+  ]
+ }
+]

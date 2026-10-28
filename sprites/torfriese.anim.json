@@ -1,0 +1,1 @@
+{"w":118,"h":113,"body":94,"cols":5,"rows":3,"states":{"idle":{"start":0,"n":2},"walk":{"start":2,"n":3},"attack":{"start":5,"n":5},"hurt":{"start":10,"n":1},"death":{"start":11,"n":4}}}

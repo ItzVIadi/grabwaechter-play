@@ -1,0 +1,1267 @@
+{
+ "sprites": [
+  "aschenkoenig",
+  "aschezombie",
+  "eiserner_waechter",
+  "eisgolem",
+  "eiskoenig",
+  "eisskelett",
+  "ewiger_schatten",
+  "feuerpriester",
+  "frostgeist",
+  "frostzombie",
+  "funkengeist",
+  "ghul",
+  "giftmutter",
+  "giftspucker_kaefer",
+  "glutskelett",
+  "grabkoenig",
+  "grabkriecher_parasit",
+  "grabraeuber_goldsack",
+  "grabraeuber_spatzen_schwarm",
+  "grabsalamander",
+  "grabstein_krabs",
+  "grabwaechter",
+  "gruftmeister",
+  "icon_armor",
+  "icon_axe",
+  "icon_berries",
+  "icon_boots",
+  "icon_bucket",
+  "icon_chest",
+  "icon_gloves",
+  "icon_gold",
+  "icon_helm",
+  "icon_herb",
+  "icon_hoe",
+  "icon_log",
+  "icon_mandrake",
+  "icon_mat0",
+  "icon_mat1",
+  "icon_mat2",
+  "icon_mat3",
+  "icon_mushroom",
+  "icon_pack",
+  "icon_pants",
+  "icon_pickaxe",
+  "icon_planks",
+  "icon_potion",
+  "icon_potion_antidote",
+  "icon_potion_heal",
+  "icon_potion_mana",
+  "icon_potion_strength",
+  "icon_rune",
+  "icon_seeds",
+  "icon_shield",
+  "icon_sword",
+  "icon_wateringcan",
+  "katakomben_stalker",
+  "knochenmagier",
+  "knochenwaechter",
+  "lavahund",
+  "magmafuerst",
+  "obsidiangolem",
+  "runenhueterin",
+  "schatten_krabbler",
+  "schattenjaeger",
+  "schneewolf",
+  "seelenpriester",
+  "skelett",
+  "station_alchemie",
+  "station_ausbau",
+  "station_buch",
+  "station_haendler",
+  "station_karte",
+  "station_lager",
+  "station_schrein",
+  "station_spind",
+  "station_werkbank",
+  "torfriese",
+  "winterhexe",
+  "zombie"
+ ],
+ "anims": {
+  "aschezombie": {
+   "w": 98,
+   "h": 109,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "eiserner_waechter": {
+   "w": 193,
+   "h": 195,
+   "body": 174,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "eisgolem": {
+   "w": 107,
+   "h": 106,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "eiskoenig": {
+   "w": 108,
+   "h": 102,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "eisskelett": {
+   "w": 107,
+   "h": 110,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "ewiger_schatten": {
+   "w": 128,
+   "h": 148,
+   "body": 126,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "feuerpriester": {
+   "w": 142,
+   "h": 110,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 1
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "frostgeist": {
+   "w": 121,
+   "h": 111,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "frostzombie": {
+   "w": 103,
+   "h": 103,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "funkengeist": {
+   "w": 149,
+   "h": 109,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "ghul": {
+   "w": 154,
+   "h": 131,
+   "body": 94,
+   "cols": 6,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 3
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    }
+   }
+  },
+  "giftmutter": {
+   "w": 273,
+   "h": 182,
+   "body": 174,
+   "cols": 6,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    }
+   }
+  },
+  "giftspucker_kaefer": {
+   "w": 154,
+   "h": 115,
+   "body": 87,
+   "cols": 6,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    }
+   }
+  },
+  "glutskelett": {
+   "w": 98,
+   "h": 98,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "grabkriecher_parasit": {
+   "w": 154,
+   "h": 96,
+   "body": 82,
+   "cols": 6,
+   "rows": 5,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    },
+    "ability": {
+     "start": 24,
+     "n": 5
+    }
+   }
+  },
+  "grabraeuber_goldsack": {
+   "w": 127,
+   "h": 101,
+   "body": 94,
+   "cols": 6,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 3
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    }
+   }
+  },
+  "grabraeuber_spatzen_schwarm": {
+   "w": 125,
+   "h": 117,
+   "body": 94,
+   "cols": 6,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 3
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    }
+   }
+  },
+  "grabsalamander": {
+   "w": 205,
+   "h": 128,
+   "body": 99,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "grabstein_krabs": {
+   "w": 128,
+   "h": 108,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 3
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "grabwaechter": {
+   "w": 416,
+   "h": 416,
+   "body": 282,
+   "cols": 9,
+   "rows": 9,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 8
+    },
+    "walk": {
+     "start": 8,
+     "n": 16
+    },
+    "walkfree": {
+     "start": 24,
+     "n": 16
+    },
+    "idlefree": {
+     "start": 40,
+     "n": 8
+    },
+    "attack": {
+     "start": 48,
+     "n": 15
+    },
+    "hurt": {
+     "start": 63,
+     "n": 5
+    },
+    "dash": {
+     "start": 68,
+     "n": 8
+    },
+    "death": {
+     "start": 76,
+     "n": 5
+    }
+   },
+   "fps": {
+    "walk": 21,
+    "idle": 8
+   },
+   "impact": 175,
+   "scale": 0.5
+  },
+  "katakomben_stalker": {
+   "w": 128,
+   "h": 137,
+   "body": 126,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "knochenmagier": {
+   "w": 125,
+   "h": 108,
+   "body": 94,
+   "cols": 6,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 3
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    }
+   }
+  },
+  "knochenwaechter": {
+   "w": 195,
+   "h": 188,
+   "body": 174,
+   "cols": 6,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 3
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    }
+   }
+  },
+  "lavahund": {
+   "w": 123,
+   "h": 111,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "magmafuerst": {
+   "w": 153,
+   "h": 99,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "obsidiangolem": {
+   "w": 135,
+   "h": 108,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "runenhueterin": {
+   "w": 154,
+   "h": 101,
+   "body": 89,
+   "cols": 6,
+   "rows": 5,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    },
+    "ability": {
+     "start": 24,
+     "n": 4
+    }
+   }
+  },
+  "schattenjaeger": {
+   "w": 126,
+   "h": 101,
+   "body": 94,
+   "cols": 6,
+   "rows": 5,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 3
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    },
+    "ability": {
+     "start": 24,
+     "n": 4
+    }
+   }
+  },
+  "schatten_krabbler": {
+   "w": 132,
+   "h": 112,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "schneewolf": {
+   "w": 125,
+   "h": 108,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "seelenpriester": {
+   "w": 138,
+   "h": 104,
+   "body": 94,
+   "cols": 6,
+   "rows": 5,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 5
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    },
+    "ability": {
+     "start": 24,
+     "n": 4
+    }
+   }
+  },
+  "skelett": {
+   "w": 118,
+   "h": 106,
+   "body": 94,
+   "cols": 6,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 3
+    },
+    "walk": {
+     "start": 6,
+     "n": 6
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 18,
+     "n": 1
+    },
+    "death": {
+     "start": 19,
+     "n": 4
+    }
+   }
+  },
+  "torfriese": {
+   "w": 118,
+   "h": 113,
+   "body": 94,
+   "cols": 5,
+   "rows": 3,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 2
+    },
+    "walk": {
+     "start": 2,
+     "n": 3
+    },
+    "attack": {
+     "start": 5,
+     "n": 5
+    },
+    "hurt": {
+     "start": 10,
+     "n": 1
+    },
+    "death": {
+     "start": 11,
+     "n": 4
+    }
+   }
+  },
+  "winterhexe": {
+   "w": 110,
+   "h": 107,
+   "body": 94,
+   "cols": 5,
+   "rows": 4,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 1
+    },
+    "walk": {
+     "start": 5,
+     "n": 5
+    },
+    "attack": {
+     "start": 10,
+     "n": 5
+    },
+    "hurt": {
+     "start": 15,
+     "n": 1
+    },
+    "death": {
+     "start": 16,
+     "n": 4
+    }
+   }
+  },
+  "zombie": {
+   "w": 144,
+   "h": 144,
+   "body": 112,
+   "cols": 8,
+   "rows": 3,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 4
+    },
+    "walk": {
+     "start": 4,
+     "n": 8
+    },
+    "attack": {
+     "start": 12,
+     "n": 5
+    },
+    "hurt": {
+     "start": 17,
+     "n": 1
+    },
+    "death": {
+     "start": 18,
+     "n": 5
+    }
+   }
+  },
+  "grabwaechter1": {
+   "w": 416,
+   "h": 416,
+   "body": 263,
+   "cols": 9,
+   "rows": 7,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 8
+    },
+    "walk": {
+     "start": 8,
+     "n": 16
+    },
+    "attack": {
+     "start": 24,
+     "n": 15
+    },
+    "hurt": {
+     "start": 39,
+     "n": 5
+    },
+    "dash": {
+     "start": 44,
+     "n": 8
+    },
+    "death": {
+     "start": 52,
+     "n": 5
+    }
+   },
+   "fps": {
+    "walk": 21,
+    "idle": 8
+   },
+   "impact": 175,
+   "scale": 0.5
+  },
+  "grabwaechter3": {
+   "w": 416,
+   "h": 416,
+   "body": 295,
+   "cols": 9,
+   "rows": 9,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 8
+    },
+    "walk": {
+     "start": 8,
+     "n": 16
+    },
+    "walkfree": {
+     "start": 24,
+     "n": 16
+    },
+    "idlefree": {
+     "start": 40,
+     "n": 8
+    },
+    "attack": {
+     "start": 48,
+     "n": 15
+    },
+    "hurt": {
+     "start": 63,
+     "n": 5
+    },
+    "dash": {
+     "start": 68,
+     "n": 8
+    },
+    "death": {
+     "start": 76,
+     "n": 5
+    }
+   },
+   "fps": {
+    "walk": 21,
+    "idle": 8
+   },
+   "impact": 175,
+   "scale": 0.5
+  },
+  "grabwaechter4": {
+   "w": 416,
+   "h": 416,
+   "body": 278,
+   "cols": 9,
+   "rows": 9,
+   "states": {
+    "idle": {
+     "start": 0,
+     "n": 8
+    },
+    "walk": {
+     "start": 8,
+     "n": 16
+    },
+    "walkfree": {
+     "start": 24,
+     "n": 16
+    },
+    "idlefree": {
+     "start": 40,
+     "n": 8
+    },
+    "attack": {
+     "start": 48,
+     "n": 15
+    },
+    "hurt": {
+     "start": 63,
+     "n": 5
+    },
+    "dash": {
+     "start": 68,
+     "n": 8
+    },
+    "death": {
+     "start": 76,
+     "n": 5
+    }
+   },
+   "fps": {
+    "walk": 21,
+    "idle": 8
+   },
+   "impact": 175,
+   "scale": 0.5
+  }
+ }
+}
